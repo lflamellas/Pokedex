@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginTitle {
+    text-align: center;
+    font-size: 5em;
+    padding: 1em;
+}
+
+.loginForm {
+    margin: auto;
+    padding: 2em 3em;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.usernameInput {
+    font-size: 1em;
+    border-radius: 0.3em;
+    border: 2px solid #c3c3c3;
+    line-height: 2em;
+    padding: 0.5em;
+}
+
+.loginBtn, .registerBtn {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 1em;
+    min-width: 100px;
+}

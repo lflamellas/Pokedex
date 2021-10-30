@@ -1,0 +1,7 @@
+.primarybtn {
+    margin: 0.2em;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}

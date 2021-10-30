@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.mainFrame {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.mainTitle {
+    color: RED;
+    font-size: 5em;
+    padding: 2em auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.pokeCard {
+    border: 2px solid #FFDFD4;
+    width: 15%;
+    min-width: 150px;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 0.4em;
+    background-color:#Fae8e6;
+    box-shadow: 10px 10px #f7f1f0;
+}
+
+.pokeName {
+    text-align: center;
+}
+
+.pokeImgDiv {
+    padding: auto;
+}
+
+.pokeImg {
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 3em;
+}
+

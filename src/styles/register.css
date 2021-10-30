@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.registerTitle {
+    text-align: center;
+    font-size: 5em;
+    padding: 1em;
+}
+
+.registerForm {
+    margin: auto;
+    padding: 2em 3em;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    font-size: 1em;
+    border-radius: 0.3em;
+    border: 2px solid #c3c3c3;
+    line-height: 2em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 1em;
+    min-width: 100px;
+}
